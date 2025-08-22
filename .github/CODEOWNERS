@@ -1,0 +1,36 @@
+# CODEOWNERS file for config-store-673
+# Global owners - will be requested for all PRs
+* @Armor-test/team-logging @Armor-test/squad-ml @Armor-test/squad-research
+
+# Directory ownership
+/security/ @Armor-test/team-notifications @Armor-test/squad-qa
+/web/ @Armor-test/grp-api @Armor-test/grp-ui
+/vendor/ @Armor-test/squad-cache @Armor-test/unit-test @Armor-test/grp-integration
+/styles/ @Armor-test/dept-reporting @Armor-test/squad-frontend @Armor-test/dept-billing
+/services/ @Armor-test/squad-payments @Armor-test/team-reporting
+/modules/ @Armor-test/squad-ux @Armor-test/squad-frontend @Armor-test/squad-apps
+/extensions/ @Armor-test/squad-frontend @Armor-test/unit-cloud
+/migrations/ @Armor-test/dept-reliability @Armor-test/unit-devops @Armor-test/squad-payments
+/views/ @Armor-test/dept-reliability @Armor-test/squad-database
+/build/ @Armor-test/grp-search @Armor-test/dept-security
+
+# File type ownership
+*.md @Armor-test/unit-design @Armor-test/dept-api @Armor-test/dept-reliability
+*.json @Armor-test/dept-ui @Armor-test/grp-storage @Armor-test/dept-automation
+*.scala @Armor-test/squad-performance @Armor-test/team-research
+*.proto @Armor-test/squad-frontend @Armor-test/squad-tooling
+*.toml @Armor-test/dept-security @Armor-test/dept-notifications
+*.rs @Armor-test/squad-cloud @Armor-test/dept-test
+*.js @Armor-test/team-research @Armor-test/unit-test
+*.gradle @Armor-test/squad-payments @Armor-test/dept-release @Armor-test/grp-integration
+*.lock @Armor-test/grp-payments @Armor-test/unit-devops
+*.tsx @Armor-test/grp-payments @Armor-test/unit-governance @Armor-test/squad-performance
+*.h @Armor-test/team-research @Armor-test/team-core
+*.yaml @Armor-test/team-logging @Armor-test/squad-performance
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
